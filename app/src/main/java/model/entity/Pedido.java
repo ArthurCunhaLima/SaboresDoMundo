@@ -18,9 +18,22 @@ public class Pedido {
     private float valorTotal;
 
 
-    private static final List<String> arrayPedido = new ArrayList<>();
+    private List<Item> arrayPedido = new ArrayList<>();
 
+    public long getId() {
+        return id;
+    }
 
+    public void setId(long id) {
+        this.id = id;
+    }
 
+    public float getValorTotal() {
+        return valorTotal;
+    }
+
+    public void setValorTotal(float valorTotal) {
+        this.valorTotal = valorTotal;
+    }
 
 }
